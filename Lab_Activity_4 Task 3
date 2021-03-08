@@ -1,0 +1,33 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+a = np.array([-0.4, 4.3, -0.6])
+b = np.array([-0.2, 0.2, 1.0])
+c = np.array([-0.2, 2.1, -1.5])
+
+A = (np.square(a) + np.square(b) + np.square(c))
+B = (np.divide(np.multiply(a, (np.add(b, (np.multiply(a, b))))), c))
+C = np.linalg.norm(a + b + c)
+D = (A * B * C)
+print("Total:", D)
+
+
+plt.quiver(a[0], a[1], b[1], b[1],
+           angles="xy", scale_units="xy", scale=1, color="#00BFFF", width=.010, label="a")
+plt.quiver(a[0] + b[1], a[1] + b[1], c[0], c[1],
+           angles="xy", scale_units="xy", scale=1, color="#0174DF", width=.010, label="b")
+plt.quiver(a[0], a[1], D[0], D[1],
+           angles="xy", scale_units="xy", scale=1, color="#0404B4", width=.010, label="c")
+E = b + c
+
+R_mag = np.sqrt(np.sum(b**2+c**2))
+rise = c[1]
+run = c[0]
+slope = rise/run
+print("The slope:", slope)
+
+plt.ylim(-10, 10)
+plt.xlim(-10, 10)
+plt.legend(loc="upper left")
+plt.grid()
+plt.show()
