@@ -1,0 +1,59 @@
+vector0 = [1,2,3,4,5]
+vector1 = [6,7,8,9,10]
+sum1 = []
+
+print("Vectors 0:", vector0, "and Vector 1:", vector1)
+for i in range(len(vector0)):
+    product1 = vector0[i] * vector1[i]
+    sum1.append(product1)
+print("Vector 0 * Vector 1 =", sum1)
+print("Total of the Vectors:", sum(sum1))
+print("\n")
+
+vector2 = [5,10,2,3,4]
+vector3 = [3,6,9,7,4]
+sum2 = []
+
+print("Vectors 2:", vector2, "and Vector 3:", vector3)
+for i in range(len(vector2)):
+    product2 = vector2[i] * vector3[i]
+    sum2.append(product2)
+print("Vector 2 * Vector 3 =", sum2)
+print("Total of the Vectors:", sum(sum2))
+print("\n")
+
+vector4 = [9,10,3,8,1]
+vector5 = [9,8,3,4,1]
+sum3 = []
+
+print("Vectors 4:", vector4, "and Vector 5:", vector5)
+for i in range(len(vector4)):
+    product3 = vector4[i] * vector5[i]
+    sum3.append(product3)
+print("Vector 4 * Vector 5 =", sum3)
+print("Total of the Vectors:", sum(sum3))
+print("\n")
+
+vector6 = [10,7,5,3,1]
+vector7 = [1,4,2,9,7]
+sum4 = []
+
+print("Vectors 6:", vector6, "and Vector 7:", vector7)
+for i in range(len(vector6)):
+    product4 = vector6[i] * vector7[i]
+    sum4.append(product4)
+print("Vector 6 * Vector 7 =", sum4)
+print("Total of the Vectors:", sum(sum4))
+print("\n")
+
+vector8 = [3,2,5,1,4]
+vector9 = [6,5,3,2,10]
+sum5 = []
+
+print("Vectors 8:", vector8, "and Vector 9:", vector9)
+for i in range(len(vector8)):
+    product5 = vector8[i] * vector9[i]
+    sum5.append(product5)
+print("Vector 8 * Vector 9 =", sum5)
+print("Total of the Vectors:", sum(sum5))
+print("\n")
