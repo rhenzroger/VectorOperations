@@ -1,0 +1,82 @@
+Vector1 = [(-2,2,-3,3)]
+v1 = []
+
+for elements in Vector1:
+    for num in elements:
+        square1 = num ** 2
+        v1.append(square1)
+
+print('Given im the vector 1:              ',Vector1)
+print('Square of all given in vector 1:    ',v1)
+print('Sum of all given:                   ',sum(v1))
+print('Square root of the sum of all given:',sum(v1)**(1/2))
+print("\n")
+
+Vector2 = [(4,8,3,-2)]
+v2 = []
+
+for elements in Vector2:
+    for num in elements:
+        square2 = num ** 2
+        v2.append(square2)
+
+print('Given im the vector 2:              ',Vector2)
+print('Square of all given in vector 2:    ',v2)
+print('Sum of all given:                   ',sum(v2))
+print('Square root of the sum of all given:',sum(v2)**(1/2))
+print("\n")
+
+Vector3 = [(3,1,-2,6)]
+v3 = []
+
+for elements in Vector3:
+    for num in elements:
+        square3 = num ** 2
+        v3.append(square3)
+
+print('Given im the vector 3:              ',Vector3)
+print('Square of all given in vector 3:    ',v3)
+print('Sum of all given:                   ',sum(v3))
+print('Square root of the sum of all given:',sum(v3)**(1/2))
+print("\n")
+
+Vector4 = [(-3,-1,2,-6)]
+v4 = []
+
+for elements in Vector4:
+    for num in elements:
+        square4 = num ** 2
+        v4.append(square4)
+
+print('Given im the vector 4:              ',Vector4)
+print('Square of all given in vector 4:    ',v4)
+print('Sum of all given:                   ',sum(v4))
+print('Square root of the sum of all given:',sum(v4)**(1/2))
+print("\n")
+
+Vector5 = [(4,5,3,-3)]
+v5 = []
+
+for elements in Vector5:
+    for num in elements:
+        square5 = num ** 2
+        v5.append(square5)
+
+print('Given im the vector 5:              ',Vector5)
+print('Square of all given in vector 5:    ',v5)
+print('Sum of all given:                   ',sum(v5))
+print('Square root of the sum of all given:',sum(v5)**(1/2))
+print("\n")
+
+Vector6 = [(6,3,2,6)]
+v6 = []
+
+for elements in Vector6:
+    for num in elements:
+        square6 = num ** 2
+        v6.append(square6)
+
+print('Given im the vector 6:              ',Vector6)
+print('Square of all given in vector 6:    ',v6)
+print('Sum of all given:                   ',sum(v6))
+print('Square root of the sum of all given:',sum(v6)**(1/2))
